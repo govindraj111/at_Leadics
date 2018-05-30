@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>
+			Login
+		</title>
+		<script type="text/javascript" src="libs/angular.min.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
+	</head>
+
+	<body ng-app="app">
+		<center><b><h1>LOGIN PAGE</h1></b>
+
+
+		<div ng-controller="appcont">
+
+			<br><br><br>
+			<h3> HI {{name}} !! </h3>
+			<br><br><br>
+
+			<input ng-model="name" placeholder="Name"> <br><br>
+			<input ng-model="password" placeholder="Password">
+
+			<br><br>
+
+
+			<button ng-click="click()">Log In!</button>
+			
+
+        </div>
+		</center>
+		
+	</body>
+</html>
